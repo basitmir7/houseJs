@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./house.css" />
+    <script type="text/javascript" src="./house.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <!-- control about -->
+      <div class="control">
+        <div id="heading"><h1>HOUSE JS</h1></div>
+        <div id="about">
+          <p>
+            &nbsp Welcome to the javascript house. <br />
+            &nbsp It is build using HTML, CSS and javascript. <br />
+            <h3> HOUSE DOOR - </h3><br />
+            &nbsp click the door to open.<br />
+            &nbsp double click the door to close <br />
+           <h3> HOUSE WINDOWS -</h3>  <br />
+           &nbsp click the windows to open <br />
+           &nbsp double click the windows to close.
+          </p>
+        </div>
+        <div id="night">
+         <h4>&nbsp NIGHT :</h4>  <input type="checkbox" id="Btn" onclick="Nighthouse()" />
+        </div>
+      </div>
+
+      <!-- house starts       -->
+      <div class="big-container">
+        <div class="moon-container" id="moonCont">
+          <div class="moon" id="Moon"></div>
+        </div>
+        <div class="container" id="mainCont">
+          <div class="section-1" id="roof"></div>
+          <div class="section-2" id="windows">
+            <div class="window window-1">
+              <div
+                class="win-container one"
+                onclick="openWindowsone()"
+                ondblclick="closeWindowsone()"
+              >
+                <div class="sheild" id="sheild-1"></div>
+                <div class="sheild" id="sheild-2"></div>
+              </div>
+            </div>
+            <div class="window window-2">
+              <div
+                class="win-container two"
+                onclick="openWindowstwo()"
+                ondblclick="closeWindowstwo()">
+                <div class="sheild" id="sheild-3"></div>
+                <div class="sheild" id="sheild-4"></div>
+              </div>
+            </div>
+          </div>
+          <div class="section-3">
+            <div
+              class="house-door"
+              onclick="openDoor()"
+              ondblclick="closeDoor()">
+              <div class="inner-door" id="door"><div class="knob"></div></div>
+            </div>
+          </div>
+          <div class="section-4" id="ground"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

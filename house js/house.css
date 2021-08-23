@@ -1,0 +1,170 @@
+* {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* control side ccs */
+
+.control {
+  width: 29%;
+  background: rgb(238, 241, 238);
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 87%;
+  margin-top: 3%;
+  margin-left: 1%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border: 2px solid rgb(192, 14, 59);
+}
+
+#heading {
+  height: 15%;
+  margin-top: 17%;
+  text-align: center;
+}
+#heading h1 {
+  height: 7%;
+  color: rgb(192, 14, 59);
+}
+#about {
+  height: 48%;
+  display: flex;
+  flex-direction: column;
+}
+#about h3 {
+  margin-bottom: -7%;
+  text-decoration-line: underline;
+  margin-left: 2%;
+}
+#night {
+  height: 15%;
+  display: flex;
+}
+#Btn {
+  height: 35%;
+  margin-top: 4%;
+}
+
+/* container side */
+.big-container {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+}
+.moon-container {
+  display: flex;
+  height: 14%;
+  width: 100%;
+  background: rgb(131, 255, 249);
+}
+
+.moon {
+  margin-left: 10%;
+  width: 10%;
+  background: linear-gradient(
+    58deg,
+    rgb(255, 255, 255),
+    rgba(209, 209, 209, 0)
+  );
+  border-radius: 100%;
+}
+.container {
+  width: 100%;
+  background: rgb(131, 255, 249);
+  display: flex;
+  flex-direction: column;
+}
+.section-1 {
+  height: 0%;
+  background: rgb(131, 255, 249);
+  border-bottom: 141px solid rgb(75, 11, 11);
+  border-left: 236px solid transparent;
+  border-right: 264px solid transparent;
+  width: 52%;
+}
+.section-2 {
+  height: 28%;
+  background: rgba(250, 227, 17, 0.726);
+  width: 85%;
+  margin-left: 7.5%;
+  display: flex;
+}
+.section-3 {
+  height: 40%;
+  background: rgba(250, 227, 17, 0.726);
+  width: 85%;
+  margin-left: 7.5%;
+  display: flex;
+  justify-content: center;
+}
+.section-4 {
+  height: 10%;
+  background: linear-gradient(to top, rgb(94, 64, 8), rgb(124, 204, 19));
+  border-top: 8px solid green;
+}
+
+.window {
+  display: flex;
+  justify-content: center;
+}
+
+.win-container {
+  width: 55%;
+  height: 80%;
+  margin-top: 3%;
+  background: linear-gradient(360deg, rgb(65, 65, 64), rgb(161, 161, 161));
+  border: 4px solid rgb(224, 170, 21);
+  display: flex;
+  cursor: pointer;
+  border-radius: 3%;
+}
+.sheild {
+  transform: scale(0.96);
+  background: linear-gradient(180deg, rgb(102, 55, 11), rgb(163, 44, 44));
+  border: 4px solid rgb(70, 37, 7);
+  height: 95%;
+}
+
+#sheild-1,
+#sheild-3 {
+  transform-origin: left;
+}
+
+#sheild-2,
+#sheild-4 {
+  transform-origin: right;
+}
+
+.house-door {
+  width: 30%;
+  background: linear-gradient(180deg, rgb(65, 65, 64), rgb(161, 161, 161));
+  display: flex;
+  cursor: pointer;
+  border: 4px solid rgb(224, 170, 21);
+}
+.inner-door {
+  background: linear-gradient(180deg, rgb(112, 60, 12), rgb(177, 50, 50));
+  transform: scale(0.96);
+  transform-origin: left;
+  border: 6px solid rgb(88, 48, 10);
+  height: 95%;
+  /* transform: skewY(3deg); */
+}
+
+.knob {
+  height: 9%;
+  width: 10%;
+  border-radius: 65%;
+  background: rgb(34, 15, 2);
+  margin: 46% 85% 0;
+  border: 3px solid rgb(136, 69, 25);
+}
